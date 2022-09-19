@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <!--logo y navegador-->
-
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-body navbar-brand fixed-top m-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-body navbar-brand sticky-top p-1">
             <div class="container-fluid ">
 
                     <a class="navbar-brand logo" href="./index.html">
@@ -59,18 +62,65 @@
     <main>
         <div class="bgIndex">
             <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12 text-center aling-item-center">
+                        <br>
+                        <h1 class="animate__animated animate__bounceInLeft bg-dark bg-body fuente h1">InWood | Todo en Madera</h1>
+                    </div>
+    <!--Titulo y parrafo-->
+                        <div class="col-xs-12 col-md-12 col-lg-9">
+                            <br>
+                            <br>
+                            <h1 class="animate__animated animate__bounceInLeft bg-dark bg-body fuente text-center ">
+                                /
+                            </h1>
+                            <p class="animate__animated animate__bounceInLeft bg-dark bg-body fuente text-center h4 p-3">
+                                Cada día más simple es renovar nuestros espacios. Si estamos pensando en cambiar la apariencia y el confort de nuestro living o comercio en InWood sin duda encontraremos la más amplia variedad de colores y precios con los mejores asesores para guiarnos en la elección de los pisos
+                            </p>
+                        </div>
+    <!--carousel-->
+                    <div class="col-xs-12 col-md-12 col-lg-9">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade animate__animated animate__bounceInLeft bg-dark fuente text-center " data-bs-ride="carousel">
+                            <div class="carousel-inner">
 
+                                <div class="carousel-item active">
+                                    <img src="./images/galeria/deck.jpg" class="d-block w-100 h-80" alt="Deck Exterior">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="./images/galeria/piso-2.jpg" class="d-block w-100 h-80" alt="piso de madera">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="./images/galeria/piso-pvc.jpg" class="d-block w-100 h-80" alt="piso de pvc">
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <br>  
+
+                    </div>
+                </div>
             </div>
         </div>
     </main>
     <!--Pie de pagina-->
-    <footer class="bg-dark text-white pt-5 pb-4 fixed-bottom">
+    <footer class="bg-dark text-white pt-2 pb-2 sticky-bottom">
         <div class="container-fluid ">
             <div class="row p-5 bg-dark text-white">
                 <div class="col-xs-12 col-md-12 col-lg-6  text-center">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-warning aling-center">InWood | Todo en Madera</h5>
                     <p>La madera es un material vivo y saludable, y un recurso natural utilizado por el hombre desde los primeros tiempos. Su gran resistencia lo hace ideal para la construcción tanto de interiores como de exteriores y su origen natural, lo convierte además en un material sostenible muy respetuoso con el medio ambiente</p>
                 </div>
+    <!--Redes sociales-->
                 <div class="col-xs-12 col-md-12 col-lg-6 align-content-end">
                     <div class="col-xs-12 col-md-6 col-lg-6 m-auto">
                         <h5 class="text-uppercase mb-3 font-weight-bold text-warning">Redes Sociales</h5>
@@ -92,11 +142,11 @@
                 </div>
                 </div>
                 <hr class="mb-4">
+    <!--Legales-->
                 <div class="row text-center">
                     <div>
                     <p>©2022 InWood | Todo en Madera</p>
                     </div>
-    
                 </div>
             </div>
         </div>
