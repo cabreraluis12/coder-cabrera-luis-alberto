@@ -4,93 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACTO</title>
+    <title>Contacto - InWood | Todo en Madera</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
     <!--Navegador y logo-->
     <header>
-        <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-body navbar-brand fixed-top m-2">
+            <div class="container-fluid ">
 
-            <div class="contenedor-nav">
+                    <a class="navbar-brand logo" href="../index.html">
+                        <img src="../images/logo.png" alt="inicio" width="80" height="60">
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <div class="contenedor-nav-logo">
-                    <img src="http://placekitten.com/100/" alt="ejemplo">
-                </div>
+                <div class="collapse navbar-collapse fw-bold" id="navbarNav">
+                    
+                    <ul class="navbar-nav mx-auto ">
 
-                <div class="contenendor-nav-enlaces">
-                    <ul>
-                        <li><a href="../index.html">INICIO</a></li>
-                        <li><a href="./servicios.html">SERVICIOS</a></li>
-                        <li><a href="./galeria.html">GALERIA</a></li>
-                        <li><a href="./nosotros.html">NOSOTROS</a></li>
-                        <li><a href="#">CONTACTO</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="../index.html">INICIO</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+                        </li>
+
+                        <li class="nav-item text-black-50">
+                            <a class="nav-link" href="./galeria.html">GALERIA</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">CONTACTO</a>
+                        </li>
+                
                     </ul>
                 </div>
-
             </div>
-
-        </nav>
+            </nav>
     </header>
     
     <!--contenido principal de contacto-->
     <main>
+        <div class="bgContacto">
 
-        <section class="contenedor-seccion">
-            <!--Titulo-->
-            <div class="contenedor-seccion-titulo">
-                <h1 class="titulo">CONTACTO</h1>
-            </div>
-            <!--breve mensaje de contacto-->
-            <div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A unde harum molestias fugit, dolore error nesciunt minima alias recusandae voluptatibus itaque facere mollitia suscipit quibusdam at provident fuga veritatis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum est deleniti reprehenderit cupiditate quos asperiores iste eum nemo aut culpa hic mollitia, neque quam deserunt expedita et! Sunt, fugiat et?</p>
-            </div>
-
-            <!--Formulario de Contacto-->
-            <div>
-                <form action="">
-                    <label for="Nombre">Nombre:</label>
-                    <br>
-                    <input id ="nombre" name="nombre" type="text" placeholder="Ingrese Nombre">
-                    <br>
-                    <label for="email">Email:</label>
-                    <br>   
-                    <input id="mail" name="mail" type="email" placeholder="ejemplo@mail.com" required>
-                    <br>
-                    <label for="text">Escriba su Consulta:<label>
-                    <br>
-                    <textarea name="comentario" id="comentario" placeholder="Ingrese un Comentario"></textarea>
-                    <br>
-                    <input id="enviar" type="submit" value="Enviar">
-                    
-                </form>
-                
-            </div>
-
-        </section>
-
+        </div>
     </main>
     <!--pie de pagina-->
-    <footer>
-        <div class="conetenedor-footer">
-            <!--Redes sociales-->
-            <div class="conetenedor-footer-sociales">
-                <h3 class="conetenedor-footer-social-h3">Redes Sociales</h3>
-                <ul>
-                    <li><a href="https://www.facebook.com/">Facebook</a></li>
-                    <li><a href="https://www.twitter.com/">Twitter</a></li>
-                    <li><a href="https://www.instagram.com/">Instagram</a></li>
-                    <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-                </ul>
-            </div>
-            <!--Legales-->
-            <div>
-                <p>©Todos los derechos reservados </p>
+    <footer class="bg-dark text-white pt-5 pb-4 fixed-bottom">
+        <div class="container-fluid ">
+            <div class="row p-5 bg-dark text-white">
+                <div class="col-xs-12 col-md-12 col-lg-6  text-center">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning aling-center">InWood | Todo en Madera</h5>
+                    <p>La madera es un material vivo y saludable, y un recurso natural utilizado por el hombre desde los primeros tiempos. Su gran resistencia lo hace ideal para la construcción tanto de interiores como de exteriores y su origen natural, lo convierte además en un material sostenible muy respetuoso con el medio ambiente</p>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-6 align-content-end">
+                    <div class="col-xs-12 col-md-6 col-lg-6 m-auto">
+                        <h5 class="text-uppercase mb-3 font-weight-bold text-warning">Redes Sociales</h5>
+                        <ul>
+                            <li>
+                                <i class="fa fa-facebook-official"></i><a href="https://www.facebook.com/" class="text-white text text-decoration-none">  Facebook</a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-twitter mr-3"></i><a href="https://www.twitter.com/" class="text-white text text-decoration-none">  Twitter</a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-instagram mr-3"></i><a href="https://www.instagram.com/" class="text-white text text-decoration-none">  Instagram</a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-linkedin mr-3"></i><a href="https://www.linkedin.com/" class="text-white text text-decoration-none">  LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <hr class="mb-4">
+                <div class="row text-center">
+                    <div>
+                    <p>©2022 InWood | Todo en Madera</p>
+                    </div>
+    
+                </div>
             </div>
         </div>
-        </footer>
-
+    </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/a73fb931ad.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
