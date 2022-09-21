@@ -129,6 +129,11 @@ body:before{
     height: 600px;
 }
 
+textarea { 
+    width: 300px; 
+    height: 300px; 
+}
+
 
 
 
