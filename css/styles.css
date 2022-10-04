@@ -1,3 +1,4 @@
+/*mapas*/
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +10,7 @@
 /*navbar*/
 .navbar-light .navbar-nav .nav-link {
   color: black;
-  font-size: 25px;
+  font-size: 30px;
   opacity: none; }
 
 .bg-body {
@@ -19,49 +20,39 @@
 
 /*body*/
 .bgIndex {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background-image: url(../images/banner/Index.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-image: url(../images/banner/Index.jpg); }
 
 .bgServicios {
-  min-height: 100vh;
-  background-image: url(../images/banner/servicios.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed; }
+  background-position: right center;
+  background-attachment: fixed;
+  background-image: url(../images/banner/servicios.jpg); }
 
 .bgGaleria {
-  min-height: 100vh;
-  background-image: url(../images/banner/galeria.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: right center;
   background-attachment: fixed;
-  margin-top: 0; }
+  background-image: url(../images/banner/galeria.jpg); }
 
 .bgNosotros {
-  min-height: 100vh;
-  background-image: url(../images/banner/nosotros.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: right center;
   background-attachment: fixed;
-  margin-top: 0; }
+  background-image: url(../images/banner/nosotros.jpg); }
 
 .bgContacto {
-  min-height: 100vh;
-  background-image: url(../images/banner/contacto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: right center;
   background-attachment: fixed;
-  margin-top: 0; }
+  background-image: url(../images/banner/contacto.jpg); }
 
 body:before {
   content: "";

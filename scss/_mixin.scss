@@ -1,0 +1,12 @@
+@mixin fondo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+@mixin flex-direction-justificar($direction,$justify:$center){
+    display:flex;
+    flex-direction:$direction;
+    justify-content:$justify;
+}
